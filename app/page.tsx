@@ -2,7 +2,7 @@ import Ticker from "./components/Ticker";
 import Clock from "./components/Clock";
 import Sparkline from "./components/Sparkline";
 import {
-  INSTAGRAM_URL,
+  TELEGRAM_URL,
   instruments,
   badges,
   focus,
@@ -34,8 +34,8 @@ export default function Home() {
             <a href="#why">Why Join</a>
             <a href="#day">Trading Day</a>
           </nav>
-          <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-            Join on Instagram
+          <a className="btn" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+            Join on Telegram
           </a>
         </div>
       </header>
@@ -58,10 +58,10 @@ export default function Home() {
               Get daily market insights, trading concepts and educational breakdowns focused
               on XAUUSD, Crypto, Bitcoin and Day Trading — all through one Telegram channel.
             </p>
-            <p className="offer">◆ 1,00,000+ TRADERS ALREADY ON INSTAGRAM</p>
+            <p className="offer">◆ 1,00,000+ TRADERS ALREADY ON TELEGRAM</p>
             <div className="hero-cta">
-              <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-                Follow on Instagram
+              <a className="btn" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+                Follow on Telegram
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4">
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
@@ -196,8 +196,8 @@ export default function Home() {
             ))}
           </div>
           <div className="section-cta center">
-            <a className="btn btn-gold" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-              See Full Breakdowns on Instagram
+            <a className="btn btn-gold" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+              See Full Breakdowns on Telegram
             </a>
           </div>
         </div>
@@ -215,7 +215,7 @@ export default function Home() {
             ))}
           </div>
           <div className="section-cta center">
-            <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+            <a className="btn" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
               Unlock Free Access
             </a>
           </div>
@@ -238,8 +238,8 @@ export default function Home() {
             ))}
           </div>
           <div className="section-cta center">
-            <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-              Explore These Markets on Instagram
+            <a className="btn" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+              Explore These Markets on Telegram
             </a>
           </div>
         </div>
@@ -282,8 +282,8 @@ export default function Home() {
             ))}
           </div>
           <div className="section-cta center">
-            <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-              Follow on Instagram
+            <a className="btn" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+              Follow on Telegram
             </a>
           </div>
         </div>
@@ -293,7 +293,7 @@ export default function Home() {
       <section id="why">
         <div className="wrap">
           <div className="section-head">
-            <span className="kicker">WHY FOLLOW ON INSTAGRAM</span>
+            <span className="kicker">WHY FOLLOW ON TELEGRAM</span>
             <h2>Five reasons traders stick around</h2>
           </div>
           <div className="why-grid">
@@ -308,7 +308,7 @@ export default function Home() {
             ))}
           </div>
           <div className="section-cta center">
-            <a className="btn btn-gold" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+            <a className="btn btn-gold" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
               See What You&apos;re Missing — Follow Now
             </a>
           </div>
@@ -327,7 +327,7 @@ export default function Home() {
             ))}
           </div>
           <div className="section-cta center">
-            <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+            <a className="btn" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
               Be Part of the Community
             </a>
           </div>
@@ -357,10 +357,10 @@ export default function Home() {
       <section>
         <div className="wrap">
           <div className="closing">
-            <h2>Join 1,00,000+ Traders on Instagram</h2>
+            <h2>Join 1,00,000+ Traders on Telegram</h2>
             <p>No cost, no upsell — just daily setups on gold, crypto and forex.</p>
-            <a className="btn btn-gold" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-              Follow on Instagram
+            <a className="btn btn-gold" href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+              Follow on Telegram
             </a>
           </div>
         </div>
@@ -384,8 +384,8 @@ export default function Home() {
       <footer>
         <div className="wrap footer-inner">
           <span>© 2026 Gopal Shinde · Trading education you can actually understand</span>
-          <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-            instagram.com/tradewith_gopal
+          <a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer">
+            t.me/tradewith_gopal
           </a>
         </div>
       </footer>

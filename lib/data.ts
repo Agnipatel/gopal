@@ -1,4 +1,4 @@
-export const INSTAGRAM_URL = "https://instagram.com/tradewith_gopal";
+export const TELEGRAM_URL = "https://t.me/tradewith_gopal";
 
 export type Instrument = {
   name: string;
